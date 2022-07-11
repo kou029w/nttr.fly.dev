@@ -6,5 +6,6 @@
     ":skipStatusChecks",
     "docker:enableMajor",
     "docker:pinDigests"
-  ]
+  ],
+  "ignorePaths": ["compose.yml"]
 }
