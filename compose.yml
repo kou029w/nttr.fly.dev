@@ -9,4 +9,4 @@ services:
       REDIS_PORT: "6379"
       REDIS_PASSWORD: ""
   redis:
-    image: redis:alpine
+    image: redis:alpine@sha256:5916c280afae05baf0dc9a0cc82fa8e51477bdbfc72f60a5c14fd2b7735bcf07
