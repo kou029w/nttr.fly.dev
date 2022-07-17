@@ -1,4 +1,4 @@
-FROM zedeus/nitter:latest@sha256:27c22898444cd35287ef861b7feeee0975da293cc880e3ac3908ad4bc7f19936
+FROM zedeus/nitter:latest@sha256:bd93f7cd24a09b2885a3b47a80dea06a0bd8c77cf8f2c6627fb06a8c4381f831
 RUN apk --no-cache add gettext
 COPY entrypoint.sh nitter.example.conf /
 WORKDIR /src
